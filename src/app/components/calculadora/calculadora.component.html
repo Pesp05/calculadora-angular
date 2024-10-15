@@ -1,0 +1,31 @@
+<div class="card calculadora">
+    <h5 class="card-header pantalla">
+        <div>{{pantalla}}</div>
+        <div class="vistaOper">{{vistaOper}}</div>
+    </h5>
+    <div class="card-body">
+        <div>
+            <button (click)="addToExpression('7')" class="boton" mat-flat-button>7</button>
+            <button (click)="addToExpression('8')" class="boton" mat-flat-button>8</button>
+            <button (click)="addToExpression('9')" class="boton" mat-flat-button>9</button>
+            <button (click)="addToExpression('+')" class="boton" mat-flat-button>+</button>
+        </div>
+        <div>
+            <button (click)="addToExpression('4')" class="boton" mat-flat-button>4</button>
+            <button (click)="addToExpression('5')" class="boton" mat-flat-button>5</button>
+            <button (click)="addToExpression('6')" class="boton" mat-flat-button>6</button>
+            <button (click)="addToExpression('-')" class="boton" mat-flat-button>-</button>
+        </div>
+        <div>
+            <button (click)="addToExpression('1')" class="boton" mat-flat-button>1</button>
+            <button (click)="addToExpression('2')" class="boton" mat-flat-button>2</button>
+            <button (click)="addToExpression('3')" class="boton" mat-flat-button>3</button>
+            <button (click)="darResultado()" class="boton" mat-flat-button>=</button>
+        </div>
+        <div>
+            <button (click)="clearAll()" class="boton" mat-flat-button>AC</button>
+            <button (click)="addToExpression('0')" class="boton" mat-flat-button>0</button>
+            <button (click)="clearLast()" class="boton" mat-flat-button>C</button>
+        </div>
+    </div>
+  </div>

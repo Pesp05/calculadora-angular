@@ -1,0 +1,26 @@
+.calculadora{
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.boton{
+    width: 75px;
+    height: 75px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.pantalla{
+    height: 25%;
+    font-size: 30pt;
+}
+
+.vistaOper{
+    height: 15%;
+    font-size: 20pt;
+    color: gray;
+}
